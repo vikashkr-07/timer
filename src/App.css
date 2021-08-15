@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.input_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.btn-grad {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 14px 25px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ input{
+   background-image:linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+   padding: 14px 25px;
+   border-radius: 10px;
+   /* border-style: none; */
+   text-align: center;
+   box-shadow: 0 0 20px #eee;
+   color: white;
+   font-weight: 700;
+   font-size: 1rem;
+ }

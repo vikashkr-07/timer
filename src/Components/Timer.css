@@ -1,0 +1,22 @@
+.container{
+    height: 40vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-container{
+
+}
+h1{
+    color: coral;
+    font-family: 'Bungee Shade',cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+p{
+    font-size: 1.5rem;
+    margin: 0;
+}
